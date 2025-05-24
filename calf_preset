@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="emphasis" instance-name="Emphasis" input-index="1" output-index="1">
+<preset bank="0" program="0" plugin="emphasis" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="0.243164" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0.133757" />
+  <param name="meter_inR" value="0.137295" />
+  <param name="meter_outL" value="0.167668" />
+  <param name="meter_outR" value="0.159842" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="mode" value="1" />
+  <param name="type" value="8" />
+</preset>
+</plugin>
+<plugin type="compressor" instance-name="Compressor" input-index="9" output-index="9">
+<preset bank="0" program="0" plugin="compressor" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="meter_in" value="0.46579" />
+  <param name="meter_out" value="0.557863" />
+  <param name="clip_in" value="0" />
+  <param name="clip_out" value="0" />
+  <param name="threshold" value="0.0243489" />
+  <param name="ratio" value="4.88649" />
+  <param name="attack" value="609.984" />
+  <param name="release" value="2000" />
+  <param name="makeup" value="8.40938" />
+  <param name="knee" value="2.82843" />
+  <param name="detection" value="0" />
+  <param name="stereo_link" value="0" />
+  <param name="compression" value="0.141458" />
+  <param name="mix" value="1" />
+</preset>
+</plugin>
+</rack>
